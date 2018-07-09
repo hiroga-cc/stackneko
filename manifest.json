@@ -1,0 +1,31 @@
+{
+    "name": "すたっくねこ",
+    "version": "1.0",
+    "description": "開発がスタックした時に声をかけてくれる猫",
+    "permissions": [
+        "declarativeContent",
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/shikaruneko16.png",
+            "32": "images/shikaruneko32.png",
+            "48": "images/shikaruneko48.png",
+            "128": "images/shikaruneko128.png"
+        }
+    },
+    "icons": {
+        "16": "images/shikaruneko16.png",
+        "32": "images/shikaruneko32.png",
+        "48": "images/shikaruneko48.png",
+        "128": "images/shikaruneko128.png"
+    },
+    "manifest_version": 2
+}
